@@ -1,0 +1,71 @@
+/* Fonts */
+@font-face { font-family: 'PT Sans'; src: url('fonts/pt-sans.tff') format('ttf'), url('fonts/pt-sans.ttf') format('truetype'); }
+@font-face { font-family: 'PT Sans'; src: url('fonts/pt-sans.ttf') format('truetype'); }
+@font-face { font-family: 'PT Sans Bold'; src: url('fonts/pt-sans-bold.tff') format('ttf'), url('fonts/pt-sans-bold.ttf') format('truetype'); }
+
+html, body, #container { height: 100%; margin: 0; padding: 0;  } 
+body {overflow-x: hidden; font-family: 'PT Sans', Helvetica, sans-serif; font-size: 15px; text-transform:uppercase;text-align:center;background-image:url(images/footer.png);height:100%;background-repeat:no-repeat;background-position:0 750px;}
+a img { border: 0; }
+h1 { font-family: 'PT Sans', Helvetica, sans-serif; text-transform: uppercase; }
+.h2 {font-family:'PT Sans Bold'}
+
+#header { position: absolute; top: 0; left: 0; width: 345px; margin: 0; float: left; height: 100%; z-index: 4;}
+
+#header .middle {padding-bottom: 35px;}
+#header .middle h1 {font-weight: normal; font-size: 16px; }
+#header .middle .contact-form label { margin-top: 10px; display: block; }
+
+#header .contacts { font-family: 'PT Sans', Helvetica, sans-serif; font-size: 14px; }
+#header .contacts p { margin: 0; }
+#header .contacts p.small { margin: 0; font-size: 12px; }
+
+#header .team {height: 200px; }
+#header .team .contents { margin-top: 10px; text-align: center; }
+
+.middle {padding-top:40px;}
+
+.footer {padding-top:30px;padding-bottom:100px}
+.contents {margin: auto; width:227px;}
+
+hr {border:1.5px solid;}
+.hr-1px {border-top:1px solid;border-bottom:none;border-left:none;border-right:none}
+
+
+
+/* Slider */
+#container { padding-left: 0; position: relative; margin-left: 345px; background: #fff; z-index: 1; }
+#container .slider { background: url(images/olive-apartments-slide-dusk.jpg) no-repeat ; background-position: right bottom;background-size: cover; position: fixed; height: 100%; width: 90%;}
+.slider-button { position: fixed; z-index: 100; top: 50px; width: 30px; display: inline-block; height:60px}
+.slider-button:hover { cursor: pointer; }
+.slider-button a { text-decoration: none; }
+#slider-prev { background: url(images/button-prev.png) no-repeat; left: 400px; }
+#slider-next { background: url(images/button-next.png) no-repeat; right: 70px; }
+
+
+/* FORM */
+ol.phpfmg_form{list-style-type:none;padding:0px;margin:0px;}
+ol.phpfmg_form input, ol.phpfmg_form textarea, ol.phpfmg_form select{border:none;background-color: #201C1C;color: #fff;font-size: 1em;text-align:center;}
+ol.phpfmg_form li{width: 100%}
+.form_field, .form_required{}
+.form_required{margin-right:8px;margin-left:-5px;}
+.form_submit_block{padding-top: 3px;}
+.text_box, .text_area, .text_select {width:72%;height:31px}
+.text_area{height:80px;}
+.form_error_title{color: red;}
+.form_error{background-color: #F4F6E5;border: 1px dashed #ff0000;padding: 5px;display: inline-block;letter-spacing: 2px;}
+.form_error_highlight{border-bottom: 1px dashed #ff0000 !important;}
+div.instruction_error{color: red;}
+hr.sectionbreak{height:1px;color: #ccc;}
+#one_entry_msg{background-color: #F4F6E5;border: 1px dashed #ff0000;padding: 10px;margin-bottom: 10px;}
+#frmFormMailContainer input[type="submit"]{font-family: "mensch";text-align: center;background-color: #fff;color: #000;padding-top: 2px;letter-spacing: 2px;padding:3px 0;}
+#frmFormMailContainer-submit{border-top: 1px solid #000;border-bottom: 1px solid;width: 60px;margin: auto;margin-top:17px;}
+#frmFormMailContainer input[type="submit"]:hover{cursor: pointer;}
+#frmFormMailContainer h2 {margin-bottom:20px;}
+.col_label{float:left;font-size:1em;}
+.col_field{}
+.field_block{margin:5px auto;border-bottom: 1px solid #fff }
+.form_required {padding-left: 4px}
+*::-webkit-input-placeholder {color: #fff; text-overflow: ellipsis;font-family:"mensch";text-align: center;}
+*:-moz-placeholder {color: #fff !important; text-overflow: ellipsis;font-family:"mensch";text-align: center;}
+*::-moz-placeholder {color: #fff !important; text-overflow: ellipsis;font-family:"mensch";text-align: center;} /* for the future */
+*:-ms-input-placeholder {color: #fff !important; text-overflow: ellipsis;font-family:"mensch";text-align: center;}
